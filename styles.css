@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Condiment&family=Inria+Sans&family=Roboto+Mono&display=swap");
+
+body {
+  font-family: "Condiment", cursive;
+  font-family: "Inria Sans", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  /* background-color: #e8e4e3; */
+  /* background-image: url("https://images.pexels.com/photos/127160/pexels-photo-127160.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-color: #6ee7b7;
+}
+
+.App {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  /* background-color: red; */
+}
+
+.buttons {
+  margin: 0.5rem 0.5rem;
+  cursor: pointer;
+  border-radius: 0.1rem;
+  padding: 0.2rem 0.5rem;
+  font-size: large;
+  background-color: white;
+}
+
+.lowerArea {
+  text-align: left;
+}
+
+.lowerArea ul {
+  padding-left: 0rem;
+  padding-right: 5rem;
+}
+
+.visit {
+  list-style: none;
+  padding: 1rem;
+  border: 1px solid black;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+
+.name {
+  font-size: larger;
+}
